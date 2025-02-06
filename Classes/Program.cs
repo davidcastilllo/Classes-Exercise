@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            var Toyota = new Car();
+            var toyota = new Car();
             
-            Toyota.Make = "Toyota";
-            Toyota.Model = "Tacoma";
-            Toyota.Year = 2004;
+            toyota.Make = "Toyota";
+            toyota.Model = "Tacoma";
+            toyota.Year = 2004;
             
-            Console.WriteLine($"This is a {Toyota.Make} {Toyota.Model} and it was made in the year {Toyota.Year}");
+            Console.WriteLine($"This is a {toyota.Make} {toyota.Model} and it was made in the year {toyota.Year}");
         }
     }
 }
